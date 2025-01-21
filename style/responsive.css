@@ -90,5 +90,34 @@
 #blog_card1{
     display: none;
 }
+/* End blog Seciton */
+/* start footer */
+#footer_section{
+    padding: 30px;
+}
+.footer{
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.footer_logos{
+    width: 100%;
 
+}
+.footer_menus{
+    width: 100%;
+    padding: 30px 0;
+
+}
+.footer_menus h4{
+    padding: 7px 0;
+}
+.footer_social h4{
+   
+    padding: 7px 0;
+
+}
+.footer_social{
+    width: 100%;
+    padding-left: 0;
+}
 }
