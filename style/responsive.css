@@ -3,8 +3,18 @@
 @media only screen and (max-width: 576px) { 
 
 /* Header Section */
+.main_header{
+    padding: 20px;
+    border-bottom: 1px solid #FEA301;
+}
 .main_header .site_title, .menus, .contact{
     display: none;
+
+}
+.hambar{
+    display: block;
+    font-size: 35px;
+    color: #000;
 }
 
 /* End Header Section */
@@ -14,11 +24,20 @@
     flex-direction: column-reverse;
     padding: 25px;
 }
-
+.hero_content{
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    padding-right: 0px;
+}
 .hero_content h2{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 41px;
+}
+.paragraph{
+    font-size: 18px;
+    padding: 15px 0;
 }
 .hero_content{
     width: 100%;
@@ -27,7 +46,49 @@
     width: 100%;
     text-align: center;
 }
+/* End Hero Section */
+.curriculum_box{
+    flex-direction: column;
+    padding: 20px;
+}
+.c_box_text{
+    padding: 30px 50px;
+}
+.curriculum_heading h2{
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+/* End curriculam */
 
+/* Start blog section */
+#blog_section{
+    padding: 20px; 
+}
+#blog_card2 a{
+    font-size: 12px;
+}
 
+#blog_card3 a{
+    font-size: 12px;
+}
+#blog_card4 a{
+    font-size: 12px;
+}
+#blog_card5 a{
+    font-size: 12px;
+}
+.blog_article{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.blog_heading{
+    padding: 0px 0px 20px 0;
+}
+.blog_heading h2{
+    font-size: 30px;
+}
+#blog_card1{
+    display: none;
+}
 
 }
