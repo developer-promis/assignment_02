@@ -1,0 +1,33 @@
+/* Small devices (landscape phones, 576px and up */
+
+@media only screen and (max-width: 576px) { 
+
+/* Header Section */
+.main_header .site_title, .menus, .contact{
+    display: none;
+}
+
+/* End Header Section */
+
+/* Start Hero Section */
+.hero_section{
+    flex-direction: column-reverse;
+    padding: 25px;
+}
+
+.hero_content h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.hero_content{
+    width: 100%;
+}
+.hero_img{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+}
