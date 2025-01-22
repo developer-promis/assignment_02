@@ -25,7 +25,7 @@
     padding: 25px;
 }
 .hero_content{
-    padding: 30px;
+    
     text-align: center;
     width: 100%;
     padding-right: 0px;
@@ -47,16 +47,22 @@
     text-align: center;
 }
 /* End Hero Section */
+.curriculum{
+    padding: 30px 0;
+}
 .curriculum_box{
     flex-direction: column;
     padding: 20px;
 }
 .c_box_text{
-    padding: 30px 50px;
+    padding: 20px;
 }
 .curriculum_heading h2{
     font-size: 26px;
     padding-bottom: 30px;
+}
+.next_button{
+    display: none;
 }
 /* End curriculam */
 
@@ -66,26 +72,33 @@
 }
 #blog_card2 a{
     font-size: 12px;
+    padding: 10px;
 }
 
 #blog_card3 a{
     font-size: 12px;
+    padding: 10px;
 }
 #blog_card4 a{
     font-size: 12px;
+    padding: 10px;
 }
 #blog_card5 a{
     font-size: 12px;
+    padding: 10px;
 }
 .blog_article{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
 .blog_heading{
-    padding: 0px 0px 20px 0;
+    padding: 0px 0px 30px 0;
 }
 .blog_heading h2{
     font-size: 30px;
+}
+.blog_content .blog_title{
+    font-size: 10px;
 }
 #blog_card1{
     display: none;
@@ -102,6 +115,9 @@
 .footer_logos{
     width: 100%;
 
+}
+.footer_logos p{
+    padding-right: 0;
 }
 .footer_menus{
     width: 100%;
